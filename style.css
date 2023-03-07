@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+.container {
+  background-color: #2d292c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 1000px;
+}
+
+form {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 38px 77px;
+  width: 60%;
+  max-width: 600px;
+  border-radius: 10px;
+  
+}
+
+form:hover {
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+}
+
+form h2 {
+    font-size:40px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+form input, textarea {
+  border: 0;
+  margin: 15px 0px;
+  padding: 20px;
+  outline: none;
+  background: #f5f5f5;
+  font-size: 16px;
+  border-radius: 10px;
+  resize: none;
+  box-shadow: 0px -1px 10px 4px rgba(0,0,0,0.72);
+-webkit-box-shadow: 0px -1px 10px 4px rgba(0,0,0,0.72);
+-moz-box-shadow: 0px -1px 10px 4px rgba(0,0,0,0.72);
+}
+
+
+form button {
+  background: white;
+  color: #000000;
+  border: 1px solid #000000;
+  padding: 15px;
+  font-size: 1rem;
+  outline: none;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bold;
+  margin: 20px auto 0;
+  border-radius: 30px;
+  transition: all .5s ease-in;
+  box-shadow: 0px -1px 10px 4px rgba(0,0,0,0.72);
+-webkit-box-shadow: 0px -1px 10px 4px rgba(0,0,0,0.72);
+-moz-box-shadow: 0px -1px 10px 4px rgba(0,0,0,0.72);
+}
+
+form button:hover {
+  border: 1px solid #e65b00;
+  background: #2d292c;
+  color: white;
+}
